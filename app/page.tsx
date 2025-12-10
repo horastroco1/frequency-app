@@ -407,7 +407,7 @@ export default function RadioPage() {
       {/* FOOTER */}
       <div className="absolute bottom-6 text-center w-full z-10">
         <p className="text-[9px] text-white/20 font-mono tracking-[0.5em] uppercase">
-          radio.theg0d.ai
+          frequency.theg0d.ai
         </p>
       </div>
 

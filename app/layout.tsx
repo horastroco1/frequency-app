@@ -17,8 +17,8 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://radio.theg0d.ai'),
-  title: "RADIO_GΦD | Cosmic Frequency",
+  metadataBase: new URL('https://frequency.theg0d.ai'),
+  title: "FREQUENCY | Cosmic Frequency",
   description: "Cosmic Frequency Radio. Music tuned to the stars. 6 frequencies streaming now.",
   keywords: ["radio", "music", "cosmic", "frequency", "streaming", "GΦD"],
   authors: [{ name: "GΦD Empire" }],
@@ -27,15 +27,15 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://radio.theg0d.ai",
-    siteName: "RADIO_GΦD",
-    title: "RADIO_GΦD | Cosmic Frequency",
+    url: "https://frequency.theg0d.ai",
+    siteName: "FREQUENCY",
+    title: "FREQUENCY | Cosmic Frequency",
     description: "Cosmic Frequency Radio. Music tuned to the stars.",
   },
   
   twitter: {
     card: "summary_large_image",
-    title: "RADIO_GΦD | Cosmic Frequency",
+    title: "FREQUENCY | Cosmic Frequency",
     description: "Cosmic Frequency Radio. Music tuned to the stars.",
     creator: "@theg0d",
   },

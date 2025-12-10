@@ -1,6 +1,6 @@
 {
-  "name": "RADIO_GΦD",
-  "short_name": "RADIO",
+  "name": "FREQUENCY",
+  "short_name": "FREQUENCY",
   "description": "Cosmic Frequency Radio. Music tuned to the stars.",
   "start_url": "/",
   "display": "standalone",
