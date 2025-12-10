@@ -24,7 +24,7 @@ const PLAYLIST = [
 const extractDominantColor = (imgSrc: string): Promise<{ r: number; g: number; b: number }> => {
   return new Promise((resolve) => {
     const img = new Image();
-    img.crossOrigin = 'anonymous';
+    
     img.onload = () => {
       const canvas = document.createElement('canvas');
       const ctx = canvas.getContext('2d');
@@ -344,7 +344,7 @@ export default function RadioPage() {
                        alt={currentTrack.title}
                        onError={() => setImageError(true)}
                        className="w-full h-full object-cover"
-                       crossOrigin="anonymous"
+                       
                      />
                    ) : (
                      <div className="w-full h-full bg-[#050505] flex items-center justify-center">
